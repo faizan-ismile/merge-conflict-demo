@@ -66,10 +66,10 @@ print('Feature B change')
 print('Feature A change')
 >>>>>>> feature-a
 ```
-<br />
-![editor](Images/editor.png)
 
 ---
+<br />
+![editor](Images/editor.png)
 
 ##  Resolve Conflict
 
