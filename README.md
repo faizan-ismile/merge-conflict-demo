@@ -4,7 +4,7 @@ This guide demonstrates how to resolve a **merge conflict** in Git between two b
 
 ---
 
-## 🛠️ Setup Scenario
+##  Setup Scenario
 
 1. **Initialize a Git repository**:
 
@@ -47,7 +47,7 @@ This guide demonstrates how to resolve a **merge conflict** in Git between two b
 
 ---
 
-## ⚔️ Merge Conflict
+##  Merge Conflict
 
 Try merging `feature-a` into `feature-b`:
 
@@ -68,7 +68,7 @@ print('Feature A change')
 
 ---
 
-## 🧹 Resolve Conflict
+##  Resolve Conflict
 
 1. **Edit `app.py`** to manually resolve the conflict. For example:
 
@@ -90,7 +90,7 @@ print('Feature A change')
 
 ---
 
-## ✅ Verify
+##  Verify
 
 Check your log:
 
@@ -99,27 +99,9 @@ git log --graph --oneline --all
 ```
 
 You should see the branches merged.
-
+![graph](Images/graph.png)
 ---
 
-## 📸 Screenshots (Optional)
-
-- VS Code showing conflict markers
-- Terminal output showing merge conflict
-- Git log graph showing history
-
----
-
-## 🧠 Commands Summary
-
-```bash
-# Unstage a file
-git restore --staged <file>
-
-# Uncommit but keep changes staged
-git reset --soft HEAD~1
-
-# Uncommit and unstage changes
 git reset --mixed HEAD~1
 
 # Uncommit and discard all changes (DANGEROUS)
