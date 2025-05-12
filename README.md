@@ -106,10 +106,3 @@ You should see the branches merged.
 ![graph](Images/graph.png)
 ---
 
-git reset --mixed HEAD~1
-
-# Uncommit and discard all changes (DANGEROUS)
-git reset --hard HEAD~1
-```
-
----
