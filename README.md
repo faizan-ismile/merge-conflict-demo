@@ -57,7 +57,8 @@ git merge feature-a
 ```
 
 You will see a **merge conflict** in `app.py`:
-
+<br />
+![conflict](Images/conflict.png)
 ```diff
 <<<<<<< HEAD
 print('Feature B change')
@@ -65,7 +66,8 @@ print('Feature B change')
 print('Feature A change')
 >>>>>>> feature-a
 ```
-
+<br />
+![editor](Images/editor.png)
 ---
 
 ##  Resolve Conflict
@@ -99,6 +101,7 @@ git log --graph --oneline --all
 ```
 
 You should see the branches merged.
+<br />
 ![graph](Images/graph.png)
 ---
 
