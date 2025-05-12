@@ -68,6 +68,7 @@ print('Feature A change')
 ```
 <br />
 ![editor](Images/editor.png)
+
 ---
 
 ##  Resolve Conflict
