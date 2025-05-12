@@ -4,9 +4,9 @@ This guide demonstrates how to resolve a **merge conflict** in Git between two b
 
 ---
 
-##  Setup Scenario
+##  Initial Setup
 
-1. **Initialize a Git repository**:
+1. **Initialize a Git repository or Create Manually**:
 
    ```bash
    mkdir merge-conflict-demo && cd merge-conflict-demo
