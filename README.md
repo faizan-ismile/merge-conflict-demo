@@ -58,7 +58,7 @@ git merge feature-a
 
 You will see a **merge conflict** in `app.py`:
 <br />
-![conflict](Images/conflict.png)
+![conflict](Images/conflict_error.png)
 ```diff
 <<<<<<< HEAD
 print('Feature B change')
